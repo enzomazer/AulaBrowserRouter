@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return(
-        <div>
-            <Link to="/">
-            <h1>CDs</h1>
+        <div id="cabecalho">
+            <Link class="linka" to="/">
+                <div>
+                <h1 id="titulo">JP CDs</h1>
+                </div>
             </Link>
         </div>
     )
